@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bharding2/slothbot/issues"
   },
-  "homepage": "https://github.com/bharding2/slothbot#readme"
+  "homepage": "https://github.com/bharding2/slothbot#readme",
+  "dependencies": {
+    "twitter": "^1.7.0"
+  }
 }
