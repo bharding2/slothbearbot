@@ -3,4 +3,6 @@
 
 that is literally all it does.
 
+maybe there will be promises.
+
 code derived from this tutorial https://hackernoon.com/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078
