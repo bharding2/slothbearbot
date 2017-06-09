@@ -11,10 +11,13 @@ var params = {
 };
 
 function getTweets(params) {
-  return new Promise((resolve, reject) {
-
+  return new Promise((resolve, reject) => {
+    slothbearBot.get('search/tweets', params, (err, tweets, res) => {
+      if (err) return reject(err);
+      resolve(tweets);
+    });
   });
-};
+}
 
 slothbearBot.get('search/tweets', params, (err, tweets, res) => {
   if (err) return console.log(err);
