@@ -12,7 +12,7 @@ var params = {
 
 function getSlothbearTweets(params) {
   return new Promise((resolve, reject) => {
-    slothbearBot.get('search/tweets', params, (err, tweets, res) => {
+    slothbearBot.get('search/tweets', params, (err, tweets) => {
       if (err) return reject(err);
       resolve(tweets);
     });
