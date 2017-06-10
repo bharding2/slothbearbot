@@ -38,4 +38,6 @@ function favoriteSlothbearTweets(tweets) {
   });
 }
 
-getSlothbearTweets(params).then(favoriteSlothbearTweets).catch(console.log);
+getSlothbearTweets(params)
+  .then(favoriteSlothbearTweets)
+  .catch(console.log);
