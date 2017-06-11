@@ -1,7 +1,5 @@
 const Twitter = require('twitter');
-const config = require('./config.js');
-
-const slothbearBot = new Twitter(config);
+const slothbearBot = new Twitter(require('./config.js'));
 
 var params = {
   q: '#slothbears',
