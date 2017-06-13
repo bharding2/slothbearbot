@@ -2,7 +2,7 @@ const Twitter = require('twitter');
 const slothbearBot = new Twitter(require('./config.js'));
 
 var params = {
-  q: '#slothbears',
+  q: process.argv[2] || '#slothbears',
   count: 10,
   result_type: 'recent',
   lang: 'en',
