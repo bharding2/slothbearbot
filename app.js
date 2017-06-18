@@ -3,6 +3,8 @@ const slothbearBot = new Twitter(require('./config.js'));
 
 // hmmm...  how to module.export this?  a function that takes a params argument and then runs the following, or a set of functions as tools.
 
+// adding another comment
+
 var params = {
   q: process.argv[2] || '#slothbears',
   count: 10,
