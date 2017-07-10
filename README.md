@@ -9,4 +9,4 @@ Or, you can use it to search for other things and favorite recent posts.
 The first argument is the term you want to search, and the second argument is the number of posts you want returned and favorited.
 
 code derived from this tutorial https://hackernoon.com/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078
-and adapted to use promises.  Someday we'll have async await, but then probably remove it because try/catch blocks are pretty ugly
+and adapted to use promises.  Someday we'll have async await, but then probably remove it because try/catch blocks are pretty ugly (maybe I will like it?  who knows!)
