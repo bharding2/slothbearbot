@@ -7,4 +7,17 @@ var params = {
   lang: 'en',
 };
 
+function asyncGetTweets(params) {
+
+};
+
+function asyncFavoriteTweets(tweets){
+
+};
+
+
+async function asyncSlothBot(params) {
+
+};
+
 slothBot(params);
